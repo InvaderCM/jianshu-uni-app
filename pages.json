@@ -28,6 +28,24 @@
 			"style": {
 				"navigationBarTitleText": "我的"
 			}
+		},
+		{
+			"path": "pages/ucenter/my_article",
+			"style": {
+				"navigationBarTitleText": "我的文章"
+			}
+		},
+		{
+			"path": "pages/ucenter/my_love",
+			"style": {
+				"navigationBarTitleText": "喜欢收藏"
+			}
+		},
+		{
+			"path": "pages/ucenter/task",
+			"style": {
+				"navigationBarTitleText": "任务中心"
+			}
 		}
 	],
 	"tabBar": {

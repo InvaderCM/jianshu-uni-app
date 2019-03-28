@@ -1,0 +1,92 @@
+
+.top {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	margin-top: 50rpx;
+	height: 75rpx;
+	border-bottom: 1rpx solid #EEEEEE;
+}
+.sign {
+	width: 40rpx;
+	height: 40rpx;
+	margin-left: 30rpx;
+	margin-top: 10rpx;
+}
+.sign1 {
+	width: 40rpx;
+	height: 40rpx;
+	margin-right: 30rpx;
+	margin-top: 10rpx;
+}
+.title {
+	font-size: 35rpx;
+	margin-left: 30rpx;
+}
+.box {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	height: 90rpx;
+	border-bottom: 1rpx solid #EEEEEE;
+}
+.box-title {
+	font-size: 35rpx;
+	margin-left: 120rpx;
+	margin-top: 20rpx;
+}
+.box-title1 {
+	font-size: 35rpx;
+	margin-right: 120rpx;
+	margin-top: 20rpx;
+}
+.box1 {
+	height: 80rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	background-color: #EEEEEE;
+}
+.total {
+	font-size: 25rpx;
+	color: #B4B4B4;
+	margin-left: 50rpx;
+	margin-top: 20rpx;
+}
+.see {
+	font-size: 25rpx;
+	color: #B4B4B4;
+	margin-right: 50rpx;
+	margin-top: 20rpx;
+}
+.item {
+	height: 160rpx;
+	border-bottom: 1rpx solid #EEEEEE;
+}
+.item-time {
+	color: #B4B4B4;
+	font-size: 23rpx;
+	margin-left: 50rpx;
+	margin-top: 20rpx;
+}
+.item-title {
+	font-size: 40rpx;
+	margin-left: 50rpx;
+	margin-top: 5rpx;
+}
+
