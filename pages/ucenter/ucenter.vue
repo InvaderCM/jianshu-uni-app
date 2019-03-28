@@ -57,8 +57,8 @@
 			<image src="../../static/th_top.jpg"></image>
 		</view>
 		<view class="fou_top">
-			<image src="../../static/fou_top.jpg"></image>
-		</view>
+	<text class="fou_top_1">完善个人资料，交到更多简书好友！</text>
+	</view>
 		<!-- <navigator url="mine" hover-class="navigator-hover"> -->
 		<view class="item" v-for="(user,index) in users" :key="index">
 			<view class="right">{{user.name}}</view>
@@ -197,14 +197,12 @@
 
 	.fou_top {
 		width: 100%;
-		height: 100upx;
+		height: 20upx;
+		font-size:10px;
+		margin-top: 15px;
+		margin-left: 10px;
+		text-align:left;
 	}
-
-	.fou_top image {
-		width: 100%;
-		height: 100%;
-	}
-
 	.item {
 		width: 93%;
 		display: row;
@@ -278,3 +276,4 @@
 		text-align: -100px;
 	}
 </style>
+

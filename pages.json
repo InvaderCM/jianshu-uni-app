@@ -46,12 +46,22 @@
 			"style": {
 				"navigationBarTitleText": "任务中心"
 			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {}
+		},
+		{
+			"path": "pages/concern/addconcern",
+			"style": {
+				"navigationBarTitleText": "推荐好友"
+			}
 		}
 	],
 	"tabBar": {
 		"color": "#000000",
-		"selectedColor": "#2F85FC",
-		"backgroundColor": "#FFFFFF",
+		"selectedColor": "#969696",
+		"backgroundColor": "#fafbff",
 		"borderStyle": "black",
 		"list": [{
 				"pagePath": "pages/index/index",
@@ -83,6 +93,7 @@
 				"selectedIconPath": "static/mine-active.png",
 				"text": "我的"
 			}
+			
 		]
 	},
 	"globalStyle": {
@@ -90,6 +101,6 @@
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8",
-		"navigationStyle":"custom"
+		"navigationStyle": "custom"
 	}
 }

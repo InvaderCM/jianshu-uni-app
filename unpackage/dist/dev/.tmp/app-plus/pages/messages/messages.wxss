@@ -1,0 +1,89 @@
+
+.top{
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+}
+.top image{
+	width: 80rpx;
+	height: 80rpx;
+	margin-left:110rpx;
+}
+.text{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		padding-right: 50rpx;
+		border-bottom: 1rpx solid #B4B4B4;
+}
+.header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	background-color: #ededed;
+	color: #444;
+	position: relative;
+	top: -60rpx;
+}
+.tet,.tet-1,.tet-2{
+	margin-left: 100rpx;
+	font-size: 30rpx;
+}
+.header image {
+	width: 50rpx;
+	height: 50rpx;
+	margin-right: 30rpx;
+	padding-top: 100rpx;
+}
+.text-1{
+	position: relative;
+	top: 60px;
+	margin-left: 30rpx;
+}
+.card{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	font-size: 35rpx;
+	margin-top:50rpx;
+	font-weight: 200;
+}
+.card1{
+	font-size: 25rpx;
+	margin-top:40rpx;
+	border-bottom: 10rpx solid #B4B4B4;
+}
+.card image{
+	width: 35rpx;
+	height: 35rpx;
+}
+.card2{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	border-top: 1rpx solid #B4B4B4;
+}
+.card3{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.card4 image{
+	text-align: center;
+	margin-top: 30rpx;
+}
+

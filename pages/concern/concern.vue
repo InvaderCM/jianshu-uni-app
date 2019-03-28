@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <template>
 	<view class="containner">
        <view class="top">
@@ -6,6 +5,7 @@
        	<image class="add-friend" src="../../static/add.png"></image>
        	<image class="search" src="../../static/search.png"></image>
        </view>
+	   <image src="../../static/c10.jpg" class="c10"></image>
 	   <view class="bigcard">
 	   	<view class="card" v-for="(book, index) in books" :key="index">
 	   		<img class="touxiang" :src="book.cover" />
@@ -13,12 +13,16 @@
 	   		<br />
 	   		<span class="word">{{ book.word }}</span>
 	   		<br />
+			
 	   	</view>
+		     <image src="../../static/c9.jpg" class="c9"></image>
+			 <view class="end">
+				
+				 <navigator url="addconcern" hover-class="navigator-hover">
+	 <span class="e">去发现</span><span class="e e1">更多有趣的作者和专题 >></span>
+				 </navigator>
+			 </view>
 	   </view>
-	  
-	   
-	   
-	   
 	</view>
 </template>
 
@@ -31,6 +35,7 @@
 						 name:'读书',
 						 word:'《朗读者3》董娜-电子书在线阅读',
 						 cover:'static/cover1.jpg'
+						
 					},
 					{
 						 name:'旅行·在路上',
@@ -46,7 +51,7 @@
 					},
 					{
 						 name:'简书电影',
-						 word:'《都挺好》揭开一个现实的真相，越是优秀的人...',
+						 word:'《都挺好》揭开一个现实的真相，越是优秀...',
 						 cover:'static/cover4.jpg'
 						
 					},
@@ -116,6 +121,7 @@
 		padding-top: 40px;
 		display: flex;
 		align-items: center;
+		
 	}
 	
 	.touxiang {
@@ -157,7 +163,25 @@
 	   padding-top: 10px;
 		
 	}
+		
+	.c9{
+		width: 250px;
+		height: 150px;
+		margin-left: 50px;
+	}
+	.c10{
+		height: 40px;
+		width: 360px;
+		margin-top: 5px;
+	}
+	.e{
+		font-size: 14px;
+	}
+	.e1{
+		color: #7667C7;
+	}
+	.end{
+		text-align: center;
+	}
 </style>
-=======
 
->>>>>>> 6cb4e810fd684e86d88881c28b7644cef1f74e68
